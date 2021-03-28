@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Frontend Mentor | Social proof section</title>
 
@@ -26,30 +27,71 @@
     </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <header>
+      <h1 class="purple-text">10,000+ of our users love our products.</h1>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
+      <p class="purple-text">We only provide great products combined with excellent customer service.
+      See what our satisfied customers are saying about our services.</p>
+    </header>
     
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
+    <div id="star-rates">
+
+      <section id="review-stars" class="stars purple-text first">
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <p>Rated 5 Stars in Reviews</p>
+      </section>
+
+      <section id="guru-stars" class="stars purple-text second">
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <p>Rated 5 Stars in Report Guru</p>
+      </section>
+
+      <section id="tech-stars" class="stars purple-text third">
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <img src="assets/images/icon-star.svg" height= 20px>
+        <p>Rated 5 Stars in BestTech</p>
+      </section>
+
+    </div>
     
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+    <div id="reviews">
+    <section class="first">
+      <img src="assets/images/image-colton.jpg" class="image-ball" height="100%">
+      <h2>Colton Smith</h2>
+      <h3>Verified Buyer</h3>
+      <p>"We needed the same printed design as the one we had ordered a week prior.
+      Not only did they find the original order, but we also received it in time.
+      Excellent!"
+      </p>
+    </section>
+    <section class="second">
+      <img src="assets/images/image-irene.jpg" class="image-ball" height="100%">
+      <h2>Irene Roberts</h2> 
+      <h3>Verified Buyer</h3>
+      "Customer service is always excellent and very quick turn around. Completely
+      delighted with the simplicity of the purchase and the speed of delivery."
+    </section>
+
+    <section class="third">
+      <img src="assets/images/image-anne.jpg" class="image-ball" height="100%">
+      <h2>Anne Wallace<h2> 
+      <h3>Verified Buyer</h3>
+      <p>"Put an order with this company and can only praise them for the very high
+      standard. Will definitely use them again and recommend them to everyone!"
+      </p>
+    </section>
+    </div>
 
     <div class="attribution">
       Challenge by
